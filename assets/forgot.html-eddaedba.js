@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-375dc296","path":"/group/ops/linux/forgot.html","title":"忘了","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"contributors":[{"name":"iLeepop","email":"zihao02325@gmail.com","commits":2}]},"filePathRelative":"group/ops/linux/forgot.md"}');export{t as data};
