@@ -289,6 +289,12 @@ export default defineUserConfig({
                             children: [
                                 '/group/other/raspberryPi.md'
                             ]
+                        },
+                        {
+                            text: '安卓开机自启-rk356x',
+                            children: [
+                                '/group/other/android-rk356x.md'
+                            ]
                         }
                     ]
                 }
