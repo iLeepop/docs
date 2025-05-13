@@ -33,6 +33,7 @@ ssh -Tv github.com
 ```
 
 **新机器配密钥**
+
 ```bash
 // 创建密钥
 ssh-keygen -t rsa -C "your_email@example.com"
@@ -44,3 +45,19 @@ git config --global user.email "youremail@example.com"
 git config --global user.name "Your Name"
 // 将生成的公钥添加到 git 仓库
 ```
+
+**SSH 问题**
+
+```bash
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+```
+
+```
+找到你的.ssh文件夹，创建或修改里面的config文件
+添加如下内容：
+Host github.com
+    Hostname ssh.github.com
+    Port 443
+```
+
